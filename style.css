@@ -25,16 +25,16 @@ header{
   padding: 1rem 2rem;
 }
 
-nav{
+.navigating{
   max-width: 1280px;
   display: flex;
   justify-content: space-between;
-  gap: 64px;
+  gap: 4rem;
   padding: 0 1rem;
 }
 
-a{
-  font-size: 16px;
+.link{
+  font-size: 1rem;
   font-weight: 600;
   color: #FFFFFF;
 }
@@ -46,18 +46,18 @@ a{
 }
 
 .logo{
-  width: 136px;
+  width: 8.75rem;
   height: 46px;
 }
 
 .translate{
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
 }
 
 .container{
   max-width: 1580px;
-  margin: 250px auto 0;
+  margin: 15.625rem auto 0;
   padding: 0 2rem;
 
   display: flex;
@@ -69,17 +69,37 @@ section{
   width: 680px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 1rem;
 }
 
 .title{
-  font-size: 64px;
+  font-size: 4rem;
   color: #363636;
 }
 
 .description{
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #363636;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container-cicle{
+  width: 200px;
+  display: flex;
+  gap: 40px;
+}
+
+.cicle{
+  border: 2px solid #EFEAE2;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
 }
 
 .updates{
@@ -88,39 +108,39 @@ section{
 }
 
 .card{
-  width: 580px;
-  border-radius: 8px;
-  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.8);
+  width: 36.25rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.25rem 0.0625rem rgba(0, 0, 0, 0.8);
   position: relative;
 }
 
 .span{
   position: absolute;
-  width: 240px;
-  height: 64px;
+  width: 15rem;
+  height: 4rem;
   border-radius: 8px;
   color: #EFEAE2;
   background: #3C3537;
-  margin: -310px 0 0 40px;
+  margin: -19.375rem 0 0 2.5rem;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
-  font-size: 24px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+  font-size: 1.5rem;
+  box-shadow: 0.125rem 0.125rem 0.125rem 0.0625rem rgba(0, 0, 0, 0.4);
 }
 
 .btn{
-  width: 220px;
-  height: 64px;
+  width: 13.75rem;
+  height: 4rem;
 
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   background: #EFEAE2;
   color: #363636;
   border: none;
-  border-radius: 16px;
+  border-radius: 1rem;
   cursor:pointer;
 }
 
@@ -131,4 +151,64 @@ section{
 footer{
   background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('assets/footer.svg');
   height: 400px;
+}
+
+.container-footer{
+  max-width: 1580px;
+  margin: 0 auto;
+  padding: 7.5rem 0.125rem 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container{
+  max-width: 620px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.375rem;
+  padding: 0 1rem;
+}
+
+.logo-mihoyo{
+  width: 9.375rem;
+  height: 54px;
+}
+
+span{
+  font-size: 3.375rem;
+  font-weight: 400;
+  color: #EFEAE2;
+}
+
+.copyright{
+  width: 32.5rem;
+}
+
+h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #EFEAE2;
+}
+
+.description-footer{
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #EFEAE2;
+}
+
+.term{
+  max-width: 320px;
+  margin: 0 auto;
+  padding-top: 5.375rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.nav-term{
+  color: #FFFFFF;
+  font-size: 0.75rem;
+  font-weight: 400;
 }
