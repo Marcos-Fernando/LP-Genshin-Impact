@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Courier Prime', monospace;
+}
+
+main{
+  background-image: url('assets/background.svg');
+  height: 100vh;
+}
+
+header{
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7));
+  max-width: 100%;
+  height: 64px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem 2rem;
+}
+
+nav{
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+  padding: 0 1rem;
+}
+
+a{
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.btn-none{
+  background-color: Transparent;
+  border: none;
+  cursor:pointer;
+}
+
+.logo{
+  width: 136px;
+  height: 46px;
+}
+
+.translate{
+  width: 32px;
+  height: 32px;
+}
+
+.container{
+  max-width: 1580px;
+  margin: 250px auto 0;
+  padding: 0 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+section{
+  width: 680px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title{
+  font-size: 64px;
+  color: #363636;
+}
+
+.description{
+  font-size: 24px;
+  color: #363636;
+}
+
+.updates{
+  display: flex;
+  align-items: center;
+}
+
+.card{
+  width: 580px;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.8);
+  position: relative;
+}
+
+.span{
+  position: absolute;
+  width: 240px;
+  height: 64px;
+  border-radius: 8px;
+  color: #EFEAE2;
+  background: #3C3537;
+  margin: -310px 0 0 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 24px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.btn{
+  width: 220px;
+  height: 64px;
+
+  font-size: 24px;
+  font-weight: 600;
+  background: #EFEAE2;
+  color: #363636;
+  border: none;
+  border-radius: 16px;
+  cursor:pointer;
+}
+
+.btn:hover{
+    background: rgba(239, 234, 223, 0.9);
+}
+
+footer{
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('assets/footer.svg');
+  height: 400px;
+}
