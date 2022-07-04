@@ -4,62 +4,78 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/icon-GI.jpg" type="image/x-icon" />
   <link rel="stylesheet" href="style.css">
 
-  <title>LP - Genshin Impact</title>
+  <title> Landing Padding - Genshin Impact</title>
 </head>
 
 <body>
   <main>
     <header>
       <img class="logo" src="assets/Logo.svg" alt="Logo Geshin Impact"/>
+
       <nav class="navigating">
-        <a class="link" href="">Home</a>
-        <a class="link" href="">News</a>
-        <a class="link" href="">Download</a>
-        <a class="link" href="">Characters</a>
-        <a class="link" href="">Location</a>
+        <a class="link" href="">Início</a>
+        <a class="link" href="">Atualizações</a>
+        <a class="link" href="">Personagens</a>
+        <a class="link" href="">HoYoLab</a>
       </nav>
-      <button class="btn-none">
-        <img class="translate" src="assets/translate.svg" alt="Translate icon"/>
-      </button>
+
+      <div class="download">
+        <a href=""> Baixar </a>
+      </div>
     </header>
 
     <div class="container">
       <section>
-        <h1 class="title">Welcome To Teyvat</h1>
+        <h1 class="title">Bem-vindo a Teyvat</h1>
         <p class="description">
-          Genshin Impact is miHoYo's first ever open-world 
-          game, where beliefs in "The Seven" converge in the 
-          fantasy world of Teyvat.
+          Genshin Impact é o primeiro jogo de mundo aberto da miHoYo, 
+          onde as crenças nos "Setes Arcontes" convergem no mundo de fantasia 
+          de Teyvat.
         </p>
-        <button class="btn"> View More</button>
+        <button class="btn"> Veja mais </button>
       </section>
 
-      <div class="content">
-        <div class="updates">
-          <button class="btn-none">
-            <img class="arrow" src="assets/arrowleft.svg" alt="Arrow Left"/>
-          </button>
+      <div class="container-slide">
+        <div class="slide">
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
 
-          <a href="">
-            <img class="card" src="assets/event1.jpg" alt="Events"/>
+          <a class="slide-card first" href="">
+            <img src="assets/event1.jpg" alt="Events 1"/>
           </a>
-          <p class="span">Latest updates</p>
-          
-          <button class="btn-none">
-            <img class="arrow" src="assets/arrowright.svg" alt="Arrow Right"/>
-          </button>
-        </div>
-          <div class="container-cicle">
-            <div class="cicle"></div>
-            <div class="cicle"></div>
-            <div class="cicle"></div>
-            <div class="cicle"></div>
+          <a class="slide-card" href="">
+            <img src="assets/event2.jpg" alt="Events 2"/>
+          </a>
+          <a class="slide-card" href="">
+            <img src="assets/event3.jpg" alt="Events 3"/>
+          </a>
+          <a class="slide-card" href="">
+            <img src="assets/event4.jpg" alt="Events 4"/>
+          </a>
+
+          <div class="navegation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
           </div>
+        </div>
+
+        <div class="manual-navigation">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
       </div>
     </div>
   </main>
+
   <footer>
     <div class="container-footer">
       <div class="logo-container">
@@ -67,20 +83,23 @@
         <span> | </span>
         <img class="logo-mihoyo" src="assets/mihoyo-logo.svg" alt="Logo Mihoyo"/>
       </div>
+
       <section class="copyright">
-        <h2>Copyright © 2022 miHoYo All Rights Reserved</h2>
+        <h2>Copyright © 2022 miHoYo Todos os direitos reservados</h2>
         <p class="description-footer">
-          "PlayStation Family Mark" and "PS4 logo" are registered 
-          trademarks or trademarks of Sony Interactive Entertainment 
-          Inc.
+          "PlayStation Family Mark" e "PS4 logo" são marcas registradas ou 
+          marcas comerciais da Sony Interactive Entertainment Inc."
         </p>
       </section>
     </div>
+
     <nav class="term">
-      <a class="nav-term" href="">Privacy Policy</a>
-      <a class="nav-term" href="">Term of Service</a>
-      <a class="nav-term" href="">Contact us</a>
+      <a class="nav-term" href="">Política de Privacidade</a>
+      <a class="nav-term" href="">Termos de Serviço</a>
+      <a class="nav-term" href="">Contato</a>
     </nav>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
